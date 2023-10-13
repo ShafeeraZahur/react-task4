@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.card-container{
+    margin-right: 80px;
+    margin-bottom: 15px;
+}
+.footer{
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.parent1{
+    width:25%;
+   
+    
+}
+.parent2{
+    width:25%;
+    
+}
+.parent3{
+    width:25%;
+}
+.parent4{
+    width:25%;
+}
+.btn{
+    color:green;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #4CAF50;
+}
+.follow{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color:rgb(20, 19, 19);
+    padding: 30px;
+    
+    border-color: #04AA6D;
+}
+.navlink{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.all,.fsd,.cybersecurity,.datascience,.career{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: green;
+}
