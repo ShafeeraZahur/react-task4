@@ -11,7 +11,7 @@ const Navbar = () => {
         <>
             <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
+                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Pealla"></img>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     component="img"
                     height="200"
                     image='https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png'
-                    alt="Paella dish"
+                   
                 />
             </div>
             <nav className='navbar'>
