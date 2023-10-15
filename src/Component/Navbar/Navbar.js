@@ -1,17 +1,17 @@
+/* eslint-disable */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { CardMedia } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Typography from '@mui/material/Typography';
 
 const Navbar = () => {
     return (
         <>
             <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="image"></img>
+                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>

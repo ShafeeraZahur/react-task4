@@ -1,6 +1,6 @@
 
 import './App.css';
-import Navbar from './Component/Navbar/Navbar';
+
 import { Route,Routes } from 'react-router-dom';
 import All from './Component/AllNav';
 import FullStackDevelopment from './Component/FullStackDevelopment';

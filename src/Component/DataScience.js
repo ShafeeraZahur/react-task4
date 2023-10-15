@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -26,7 +27,7 @@ const DataScience = () => {
     <>
        <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="image"></img>
+                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -335,7 +336,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/08/Data-Science-project-
       </div>
      <div className='footer'>
             <div className='parent1'>
-                 <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="image"></img>
+                 <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
                  
                  <br></br>
                  <button variant="outlined" className='btn'>Refer & Earn</button>
