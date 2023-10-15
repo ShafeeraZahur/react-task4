@@ -71,7 +71,8 @@ const All = () => {
                 <CardMedia
                     component="img"
                     height="200"
-                    image='https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png'
+                    image='https://s3.ap-south-1.amazonaws.com/guvi-2.0/banner/skillup_sale.webp'
+
                     alt="Paella dish"
                 />
             </div>
