@@ -19,6 +19,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Navbar/Navbar.css';
+import Pic from '../nowpics.png';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
@@ -29,7 +31,7 @@ const All = () => {
         <>
         <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
+                    <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp" height="60"></img>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -68,15 +70,15 @@ const All = () => {
                 </nav>
             </div>
             <div>
-                <CardMedia
+                {/* <CardMedia
                     component="img"
-                    height="200"
-                    image='https://s3.ap-south-1.amazonaws.com/guvi-2.0/banner/skillup_sale.webp'
-
-                    alt="Paella dish"
-                />
+                    height="300"
+                    image='../nowpics.png'
+                    
+                /> */}
+                <img src={Pic} height="300" width="1500"/>
             </div>
-            <nav className='navbar'>
+            <nav className='navbara'>
                 <ul className='navlink'>
                     <Link to="/" className='all'>
                         <li>ALL</li>
@@ -344,7 +346,8 @@ const All = () => {
         </div>
         <div className='footer'>
             <div className='parent1'>
-                 <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
+                 <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp
+" height="60"></img>
                  
                  <br></br>
                  <button variant="outlined" className='btn'>Refer & Earn</button>

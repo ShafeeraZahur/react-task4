@@ -11,7 +11,7 @@ const Navbar = () => {
         <>
             <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Pealla"></img>
+                    <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp" height="60"></img>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>

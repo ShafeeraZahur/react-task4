@@ -13,6 +13,16 @@
     
     border-color: #04AA6D;
 }
+.navbara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  color:rgb(20, 19, 19);
+  padding: 30px;
+  box-shadow: 1px 2px rgb(242, 241, 241);
+  
+}
 .navlink{
     display: flex;
     list-style: none;
@@ -26,6 +36,8 @@
     margin: 0 10px;
     cursor: pointer;
 }
+
+
 
 .topnav{
     text-decoration: none !important;;
@@ -43,7 +55,7 @@ li:hover{
     color: green;
 }
 .header{
-    background-color: aliceblue;
+    background-color: rgba(43, 17, 17, 0.267);
     text-align: center;
     
     margin: 10px 10px;
