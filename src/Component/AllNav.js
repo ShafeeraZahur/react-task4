@@ -20,6 +20,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Navbar/Navbar.css';
 import Pic from '../nowpics.png';
+import Pic1 from '../nowpics1.png'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,7 +32,7 @@ const All = () => {
         <>
         <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp" height="60"></img>
+                    <img src={Pic1} height="60"/>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -159,7 +160,8 @@ const All = () => {
                 <CardMedia
                     component="img"
                     height="194"
-                    image="https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Essential-Cloud-Computing-Skills-for-Cloud-Engineers.png"
+                    image='https://www.guvi.in/blog/wp-content/uploads/2023/09/feature-image-Unique-Ways-Companies-Are-Attracting-Tech-Talent.webp'
+
                     alt="Paella dish"
                     onClick={()=>navigate("/readmorepagethree")}
                 />
@@ -346,8 +348,7 @@ const All = () => {
         </div>
         <div className='footer'>
             <div className='parent1'>
-                 <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp
-" height="60"></img>
+                 <img src={Pic1} height="60"/>
                  
                  <br></br>
                  <button variant="outlined" className='btn'>Refer & Earn</button>

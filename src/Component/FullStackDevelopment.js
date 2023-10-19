@@ -21,6 +21,16 @@ import './Navbar/Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useNavigate } from 'react-router-dom';
+import Pic from '../nowpics.png';
+import Pic1 from '../nowpics1.png'
+import Pic4 from '../Pic4.png';
+import Pic5 from '../Pic5.png';
+import Pic6 from '../Pic6.png';
+import Pic7 from '../Pic7.png';
+import Pic8 from '../Pic8.png';
+import Pic9 from '../Pic9.png';
+
+
 
 const FullStackDevelopment = () => {
     const navigate = useNavigate();
@@ -28,7 +38,7 @@ const FullStackDevelopment = () => {
     <>
        <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp" height="60"></img>
+                <img src={Pic1} height="60"/>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -67,12 +77,7 @@ const FullStackDevelopment = () => {
                 </nav>
             </div>
             <div>
-                <CardMedia
-                    component="img"
-                    height="200"
-                    image='https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png'
-                    alt="Paella dish"
-                />
+            <img src={Pic} height="300" width="1500"/>
             </div>
             <nav className='navbara'>
                 <ul className='navlink'>
@@ -127,7 +132,7 @@ const FullStackDevelopment = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/The-Top-10-Tools-Every-Full-Stack-Developer-Should-Master-in-2023-2048x1072.png"
+                image={Pic9}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepageeight")}
             />
@@ -154,7 +159,7 @@ const FullStackDevelopment = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2023/08/The-Ultimate-Guide-to-Real-World-Full-Stack-Development-Applications-2048x1072.png'
+                image={Pic5}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepageseven")}
             />
@@ -235,7 +240,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/07/best-way-to-learn-ful
             <CardMedia
                 component="img"
                 height="194"
-image='https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png'
+                image={Pic6}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagefour")}
             />
@@ -262,7 +267,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png'
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-Full-Stack-Development-Webinars-and-Workshops.jpg'
+                image={Pic7}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagethree")}
             />
@@ -289,7 +294,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png'
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2023/07/24746653_7002417-1-2048x1365.jpg'
+                image={Pic8}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagetwo")}
             />
@@ -316,7 +321,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png'
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2023/07/html-css-collage-concept-with-person.jpg'
+                image={Pic4}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepageone")}
             />
@@ -343,8 +348,7 @@ image='https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png'
     </div>
     <div className='footer'>
         <div className='parent1'>
-        <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp
-" height="60"></img>             
+        <img src={Pic1} height="60"/>             
              <br></br>
              <button variant="outlined" className='btn'>Refer & Earn</button>
              

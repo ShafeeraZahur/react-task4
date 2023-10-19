@@ -21,6 +21,18 @@ import './Navbar/Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useNavigate } from 'react-router-dom';
+import Pic from '../nowpics.png';
+import Pic1 from '../nowpics1.png';
+import Pic4 from '../Pic4.png';
+import Pic5 from '../Pic5.png';
+import Pic6 from '../Pic6.png';
+import Pic7 from '../Pic7.png';
+import Pic8 from '../Pic8.png';
+import Pic9 from '../Pic9.png';
+import Pic10 from '../Pic10.png';
+import Pic11 from '../Pic11.png';
+
+
 
 
 const CyberSecurity = () => {
@@ -29,7 +41,7 @@ const CyberSecurity = () => {
     <>
        <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp" height="60" ></img>
+                <img src={Pic1} height="60"/>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
@@ -68,12 +80,7 @@ const CyberSecurity = () => {
                 </nav>
             </div>
             <div>
-                <CardMedia
-                    component="img"
-                    height="200"
-                    image='https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png'
-                    alt="Paella dish"
-                />
+            <img src={Pic} height="300" width="1500"/>
             </div>
             <nav className='navbara'>
                 <ul className='navlink'>
@@ -127,7 +134,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image="https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-2048x1152.png"
+                image={Pic10}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepageeight")}
             />
@@ -154,7 +161,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif'
+                image={Pic11}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagenine")}
 
@@ -183,7 +190,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail.png'
+                image={Pic4}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepageone")}
             />
@@ -210,7 +217,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-2048x1152.png'
+                image={Pic5}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagetwo")}
 
@@ -239,7 +246,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2022/06/Types-of-Cyber-Security-Attacks-and-How-to-Minimize-the-Impact.jpg'
+                image={Pic6}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagethree")}
 
@@ -269,7 +276,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2021/03/Blog-9-2048x1072.png'
+                image={Pic7}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagefour")}
             />
@@ -296,7 +303,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2021/03/Cybersecurity-ultimate-guide-2048x1072.png'
+                image={Pic8}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagefive")}
 
@@ -325,7 +332,7 @@ const CyberSecurity = () => {
             <CardMedia
                 component="img"
                 height="194"
-                image='https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png'
+                image={Pic9}
                 alt="Paella dish"
                 onClick={()=>navigate("/readmorepagesix")}
 
@@ -353,8 +360,7 @@ const CyberSecurity = () => {
     </div>
     <div className='footer'>
            <div className='parent1'>
-           <img src="https://www.guvi.in/build/images/guvi-white-logo.b7f929e677d3c604407e0f0cfb743ae8.webp
-" height="60"></img>                
+           <img src={Pic1} height="60"/>              
                 <br></br>
                 <button variant="outlined" className='btn'>Refer & Earn</button>
                 
