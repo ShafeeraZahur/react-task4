@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Pic1 from './nowpics1.png';
 
 import './readpage.css';
 function ReadMorePageone(){
@@ -8,7 +9,7 @@ function ReadMorePageone(){
         <>
               <div className='header'>
                 <div className='header1'>
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"></img>
+                <img src={Pic1} height="60"/>
                 </div>
                 <nav className='navbar'>
                     <ul className='navlink'>
